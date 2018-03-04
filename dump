@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name docker --template-body file://t2.micro.yaml --parameters file://t2.micro-parameters.json
