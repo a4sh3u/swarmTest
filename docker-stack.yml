@@ -17,7 +17,7 @@ services:
         condition: on-failure
 
   helloworld:
-    build: ./java_app
+    image: ashu99/helloworld
     networks:
       - frontend
     deploy:
